@@ -1,0 +1,13 @@
+# 가상환경 제외
+labeling_env/
+venv/
+
+# [중요] 원본 엑셀 15,833개는 제외 (용량 문제)
+01_data/01_raw/
+
+# 가공된 CSV 파일들은 포함 (집에서 작업용)
+
+# 기타 캐시
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
